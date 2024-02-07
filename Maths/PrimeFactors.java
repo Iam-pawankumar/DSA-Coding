@@ -20,11 +20,11 @@ public class PrimeFactors {
         if(n<=0)
             return;
         while (n%2==0) {
-            System.out.println(2);
+            System.out.println(2 + " ");
             n = n / 2;
         }
         while (n%3==0) {
-            System.out.println(3);
+            System.out.println(3 + " ");
             n = n / 3;
         }
         for (int i = 5; i*i <= n ; i+=6) {
